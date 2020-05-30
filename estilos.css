@@ -1,0 +1,150 @@
+body{
+	margin-right:0;
+	margin-left:0;
+	margin-top:0;
+}
+
+.informacion_principal{
+	width:100%;
+	height:130px;
+	background:linear-gradient(#F46767, white);
+}
+
+.texto_titulo{
+	position:absolute;
+	top:-20px;
+	left:20px;
+}
+
+.logo{
+	position:absolute;
+	top:45px;
+	left:70px;
+}
+
+.botones_menu{
+	position:absolute;
+	left:150px;
+	top:75px;
+}
+
+.tabla_botoncitos{
+	border-radius:10px 10px;
+}
+
+.botones_redes_sociales{
+	width:100%;
+	height:50;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:#ED8C8C;
+}
+
+.segunda_division{
+	width:95%;
+	height:2px;
+	background-color:gray;
+}
+
+.separacion_botones_redes{
+	width:5px;
+	height:190px;
+	background-color:gray;
+	position:absolute;
+	left:200px;
+	top:5px;
+}
+
+.primera_division{
+	width:700px;
+	height:4px;
+	background-color:gray;
+	position:absolute;
+	left:250px;
+	top:100px;
+}
+
+.box{/*animación movimiento de cuadro de texto*/
+	width:400px;
+	height:253px;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	top:100px;
+	left:600px;
+}
+
+.hover{
+	width:0%;
+	height:253px;
+	background-color:black; /*color de la cajita en movimiento*/
+	position:absolute;
+	top: 0%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	overflow:hidden;
+	transition: .6s all;
+}
+
+.hover table{
+	color:pink;
+	text-shadow:2px 2px 6px orange;
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+
+.box:hover .hover{
+	width: 100%;
+	opacity: 50%
+}
+
+.box_1{/*animación movimiento de cuadro de texto*/
+	width:400px;
+	height:253px;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	top:-152px;
+	left:100px;
+}
+
+.box_1:hover .hover{
+	width: 100%;
+	opacity: 50%
+}
+
+.box_2{/*animación movimiento de cuadro de texto*/
+	width:400px;
+	height:253px;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	top:-120px;
+	left:100px;
+}
+
+.box_2:hover .hover{
+	width: 100%;
+	opacity: 50%
+}
+
+.box_3{/*animación movimiento de cuadro de texto*/
+	width:400px;
+	height:253px;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+	top:-370px;
+	left:600px;
+}
+
+.box_3:hover .hover{
+	width: 100%;
+	opacity: 50%
+}
