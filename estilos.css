@@ -79,7 +79,7 @@ body{
 .hover{
 	width:0%;
 	height:253px;
-	background-color:black; /*color de la cajita en movimiento*/
+	background-color:gray; /*color de la cajita en movimiento*/
 	position:absolute;
 	top: 0%;
 	display:flex;
