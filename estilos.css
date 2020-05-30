@@ -98,7 +98,7 @@ body{
 
 .box:hover .hover{
 	width: 100%;
-	opacity: 10%
+	opacity: 50%
 }
 
 .box_1{/*animación movimiento de cuadro de texto*/
